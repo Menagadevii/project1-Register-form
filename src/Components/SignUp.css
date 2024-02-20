@@ -1,0 +1,45 @@
+/* SignUpForm.css */
+
+.lowercase {
+  text-transform: lowercase;
+}
+body{
+  background-image: url('C:\Users\SightSpectrum\Documents\vs code\image\white.webp');
+  background-size: cover;
+}  
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-right: 200px;
+   }
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+button {
+  width: 430px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.error{
+  color: red;
+  font-size: small;
+} 
+
